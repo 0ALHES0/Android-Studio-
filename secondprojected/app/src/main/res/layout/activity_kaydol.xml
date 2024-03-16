@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".KaydolActivity"
+    android:background="@drawable/raporlar">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:hint="Kullanıcı Adı"
+        android:padding="10dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="25dp"
+        android:background="#AF2020" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Şifre"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="25dp"
+        android:background="#AF2020" />
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:hint="Şifreyi Tekrar Giriniz"
+        android:padding="10dp"
+        android:inputType="textPassword" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/repassword"
+        android:layout_marginTop="25dp"
+        android:background="#AF2020" />
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repassword"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/lllll"
+        android:text="Kaydol" />
+
+
+
+
+</RelativeLayout>

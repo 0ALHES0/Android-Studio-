@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PcKayitActivity"
+    android:background="@drawable/cikartmalar"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/ic_baseline_tablet_mac_24"
+
+                android:gravity="center"
+                android:text=""
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="0dp"
+                android:background="#ffffff" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="212dp"
+                    android:layout_height="75dp"
+                    android:padding="10dp"
+                    android:text="Envanter NO"
+                    android:textColor="#fff"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/a"
+
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/beyaz"
+                    android:digits="0123456789"
+                    android:gravity="center" />
+
+            </TableRow>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp">
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="75dp"
+                    android:padding="10dp"
+                    android:text="Marka"
+                    android:textColor="#fff"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/b"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/beyaz"
+                    android:gravity="center" />
+
+            </TableRow>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp">
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="75dp"
+                    android:padding="10dp"
+                    android:text="Model"
+                    android:textColor="#fff"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/c"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/beyaz"
+                    android:gravity="center" />
+
+            </TableRow>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp">
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="75dp"
+                    android:padding="10dp"
+                    android:text="Ekran Boyutu"
+                    android:textColor="#fff"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/d"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/beyaz"
+                    android:gravity="center" />
+
+            </TableRow>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="212dp"
+                    android:layout_height="85dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Android Sürümü"
+                    android:textColor="#fff"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/f"
+                    android:layout_width="165dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/beyaz"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+            <TextView
+                android:id="@+id/g"
+                android:layout_width="394dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint=""
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/btn_kaydet"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="Kaydet" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

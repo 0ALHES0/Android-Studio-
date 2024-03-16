@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">secondprojected</string>
+    <string name="grafbaslik">Envanter Sayıları</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="Giris">Giriş Ekranı</string>
+    <string name="Envkyt">Envanter Kayıt</string>
+    <string name="pckyıt">Bilgisayar Kayıt</string>
+    <string name="yzckyt">Yazıcı Kayıt</string>
+    <string name="tryckyt">Tarayıcı Kayıt</string>
+    <string name="tbltkyt">Tablet Kayıt</string>
+    <string name="rprlr">Raporlar</string>
+    <string name="kcis">Kullanıcı İşlemleri</string>
+    <string name="rprl">Raporlar</string>
+    <string name="pclist">Kayıtlı Bilgisayar Listesi</string>
+    <string name="yzclist">Kayıtlı Yazıcı Listesi</string>
+    <string name="tryclist">Kayıtlı Tarayıcı Listesi</string>
+    <string name="tbltlist">Kayıtlı Tablet Listesi</string>
+    <string name="kydl">Kayıt Olma Ekranı</string>
+    <color name="blue">#ffffff</color>
+</resources>
